@@ -2,7 +2,7 @@
 
 A Windows 10 theme for Classic Shell / Classic Start Menu, with yummy Windows 10-style icons :)
 
-![windows-10-start-menu](https://cloud.githubusercontent.com/assets/132681/10261519/06628172-6994-11e5-9465-7043e70b7894.png)
+![windows-10-start-menu](https://cloud.githubusercontent.com/assets/132681/10264496/00daba96-6a05-11e5-8dbd-44b4cd83e374.png)
 
 
 ## Download and Installation
@@ -46,11 +46,19 @@ If you loaded the supplied settings file, you should see a useful default setup,
 
 ### Changing bitmaps
 
-If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item and choose a new icon from the icons you previously saved to the AppData folder.
+If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item and choose a new icon from the icons you previously saved to the AppData folder:
 
-![change icon-annotated](https://cloud.githubusercontent.com/assets/132681/10263838/58316c48-69f3-11e5-8ac2-f32f4f107690.png)
+To do this:
 
-You have the following icons to choose from (with [more](https://github.com/davestewart/classic-shell-win10/issues/2) coming soon) :
+1. Open the Classic Shell "Settings" dialog, and switch to the "Customize Start Menu" tab
+2. In the left hand column, double-click the item you want to edit, to open the "Edit Menu Item" dialog
+3. In the "Icon" field, click the "..." button to open the "Select Icon" dialog
+4. In the "File" field, click the "..." button to open the "Select Source File" dialog
+5. Choose the icon you want to use and click "Open"
+6. Confirm all dialogs to exit
+
+
+You have the following icons to choose from (with [more](https://github.com/davestewart/classic-shell-win10/issues/2) coming soon):
 
 - **User folders**: Desktop, Bookmark, Favorites, Documents, Pictures, Videos, Music, Downloads
 - **Hardware**: This PC, Network, Printers
@@ -61,20 +69,20 @@ You have the following icons to choose from (with [more](https://github.com/dave
 
 ## Troubleshooting
 
-### The icons aren't showing
+#### The icons aren't showing
 
 Are you sure you copied the icons folder to your AppData/Classic Shell folder? The full path to an icon file should look like this:
 
 	%USERPROFILE%\AppData\Local\ClassicShell\Windows 10 Icons\settings.ico
 
-### The icons look pixelated or wrongly-sized
+#### The icons look pixelated or wrongly-sized
 
-If you've only just loaded the settings XML file, you will need to exit and restart Classic Shell for the new icon size to take effect
+If you've only just loaded the settings XML file, you will need to exit and restart Classic Shell for the new icon size to take effect.
 
-### The icons don't look good on my hi-res screen
+#### The icons don't look good on my hi-res screen
 
-Hi-res icons are [on the list](https://github.com/davestewart/classic-shell-win10/issues/3) of things to do. Sorry they aren't ready yet.
+Hi-res icons are [on the list](https://github.com/davestewart/classic-shell-win10/issues/3) of things to do.
 
-### My previous menu setup has gone
+#### My previous menu setup has gone
 
 Yes, if you loaded the settings file, this will have overwritten your existing settings. 
