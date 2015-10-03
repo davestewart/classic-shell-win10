@@ -48,7 +48,7 @@ If you loaded the supplied settings file, you should see a useful default setup,
 
 If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item and choose a new icon from the icons you previously saved to the AppData folder.
 
-![change icon](https://cloud.githubusercontent.com/assets/132681/10263609/61a50750-69ec-11e5-9f60-ddf586d0c1c7.png)
+![change icon-annotated](https://cloud.githubusercontent.com/assets/132681/10263838/58316c48-69f3-11e5-8ac2-f32f4f107690.png)
 
 You have the following icons to choose from (with [more](https://github.com/davestewart/classic-shell-win10/issues/2) coming soon) :
 
