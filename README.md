@@ -42,7 +42,7 @@ If you loaded the supplied settings file, you should see a useful default setup,
 You can edit most of the Classic Shell settings as you like, with the exception of:
 
 - Start Menu Style > Windows 7 style (settings don't exist for this style)
-- Menu Look > Large icon size (lareg icon size is fixed at 24)
+- Menu Look > Large icon size (large icon size is fixed at 24)
 
 ### Setting item bitmaps
 
