@@ -18,16 +18,7 @@ Unzip and navigate to the "dist" folder, then...
 1. Copy the "Windows 10.skin" file to your Classic Shell installation's "Skins" folder
 2. Copy the "Windows 10 Icons" folder to "%USERPROFILE%\AppData\Local\ClassicShell\" (use the supplied shortcut to get there)
 
-## Initial Configuration
-
-### Choose the skin
-
-1. Right click on the Classic Shell start button, and select "Settings"
-2. In the "Skin" tab, select the "Windows 10" skin
-
-At this point, the Start Menu will have the proper padding and font sizes, but not bitmaps. The next section explains how to load them.
-
-### Load the Windows 10 settings and icons 
+## Setup
 
 To style the Start Menu and show the icons, you'll need to load the supplied settings file. **This will completely replace your existing settings**, so make sure to backup your existing configuration or take a screenshot before loading the new settings.
 
@@ -46,11 +37,16 @@ Your start menu should now be updated with the Windows 10 look and feel, but you
 
 ### General
 
-If you loaded the supplied settings file, you should see a useful default setup, with folders and icons, etc. You can edit most of the Classic Shell settings as usual, and things should be OK.
+If you loaded the supplied settings file, you should see a useful default setup, with folders and icons, etc.
 
-### Changing bitmaps
+You can edit most of the Classic Shell settings as you like, with the exception of:
 
-If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item and choose a new icon from the icons you previously saved to the AppData folder:
+- Start Menu Style > Windows 7 style (settings don't exist for this style)
+- Menu Look > Large icon size (lareg icon size is fixed at 24)
+
+### Setting item bitmaps
+
+If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item's properties and choose a new icon from the icons you previously saved to the AppData folder:
 
 To do this:
 
@@ -64,7 +60,7 @@ To do this:
 
 You have the following icons to choose from (with [more](https://github.com/davestewart/classic-shell-win10/issues/2) coming soon):
 
-- **User folders**: Desktop, Bookmark, Favorites, Documents, Pictures, Videos, Music, Downloads
+- **User folders**: Desktop, Bookmark, Favorites, Documents, Pictures, Videos, Music, Downloads, Folder
 - **Hardware**: This PC, Network, Printers
 - **Tasks**: Run, Search, Security, Help, Power
 - **Settings**: Settings, Control Panel
@@ -89,6 +85,17 @@ If you've only just loaded the settings XML file, you will need to exit and rest
 
 Hi-res icons are [on the list](https://github.com/davestewart/classic-shell-win10/issues/3) of things to do.
 
-#### My previous menu setup has gone
+#### Your previous menu settings have gone
 
 Yes, if you loaded the settings file, this will have overwritten your existing settings. 
+
+#### Some of the menu items are showing &lt;No Text&gt; and don't seem to link anywhere
+
+The location that the menu item linked to doesn't exist. This may be because you've moved the folder somewhere else, or it just doesn't exist on your system.
+
+You can remove, or edit, the menu item by:
+ 
+1. Navigating to Classic Shell's "Settings" dialog
+2. Clicking the "Customize Start Menu" tab (this will only show if the "Show all settings" checkbox is checked)
+3. In the "Current menu items" list, locating the item you want to edit, and double-clicking it
+4. Editing the "Link" field to point towards a new folder location
