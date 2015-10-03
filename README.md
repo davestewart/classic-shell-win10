@@ -1,17 +1,21 @@
 # Classic Shell Windows 10 Skin
 
-A Windows 10 theme for Classic Shell / Classic Start Menu, with yummy Windows 10-style icons :)
+A Windows 10 skin for Classic Shell's Start Menu replacement, with yummy Windows 10-style icons :)
 
 ![windows-10-start-menu](https://cloud.githubusercontent.com/assets/132681/10264496/00daba96-6a05-11e5-8dbd-44b4cd83e374.png)
 
 
 ## Download and Installation
 
-Download the files using the "Download Zip" button on the right, then unzip.
+If you're not already using Classic Shell, download and install it from:
 
-From the "dist" folder...
+- [http://www.classicshell.net](http://www.classicshell.net)
 
-1. Copy the "Windows 10.skin" file to your Classic Shell installation folder
+Next, download the Windows 10 skin using the "Download ZIP" button on the right.
+
+Unzip and navigate to the "dist" folder, then...
+
+1. Copy the "Windows 10.skin" file to your Classic Shell installation's "Skins" folder
 2. Copy the "Windows 10 Icons" folder to "%USERPROFILE%\AppData\Local\ClassicShell\" (use the supplied shortcut to get there)
 
 ## Initial Configuration
@@ -74,6 +78,8 @@ You have the following icons to choose from (with [more](https://github.com/dave
 Are you sure you copied the icons folder to your AppData/Classic Shell folder? The full path to an icon file should look like this:
 
 	%USERPROFILE%\AppData\Local\ClassicShell\Windows 10 Icons\settings.ico
+
+Make sure you've copied the whole "Windows 10 Icons" folder and not just the icons.
 
 #### The icons look pixelated or wrongly-sized
 
