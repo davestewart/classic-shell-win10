@@ -28,7 +28,7 @@ At this point, the Start Menu will have the proper padding, but not bitmaps. See
 To style the Start Menu and show the icons, you'll need to load the supplied settings file. **This will completely replace your existing settings**, so make sure to backup your existing configuration or take a screenshot before loading the new settings.
 
 1. At the bottom of the panel, click "Backup" then "Load from XML File..."
-2. Choose the "Windows 10.xml" file
+2. Choose the "Windows 10 Settings.xml" file
 3. Click "OK" in the main dialog to commit the changes
 
 Your start menu should now be updated with the Windows 10 look and feel, but you will need to exit and restart Classic Shell in order for the icon sizes to update:
