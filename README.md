@@ -25,7 +25,7 @@ Unzip and navigate to the "dist" folder, then...
 1. Right click on the Classic Shell start button, and select "Settings"
 2. In the "Skin" tab, select the "Windows 10" skin
 
-At this point, the Start Menu will have the proper padding, but not bitmaps. See the next section on how to fix this.
+At this point, the Start Menu will have the proper padding and font sizes, but not bitmaps. The next section explains how to load them.
 
 ### Load the Windows 10 settings and icons 
 
