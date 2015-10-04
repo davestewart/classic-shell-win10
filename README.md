@@ -44,9 +44,15 @@ You can edit most of the Classic Shell settings as you like, with the exception 
 - Start Menu Style > Windows 7 style (settings don't exist for this style)
 - Menu Look > Large icon size (large icon size is fixed at 24)
 
-### Setting item bitmaps
+### Icons
 
-If you add new items to the Start Menu and want to change their bitmap, you'll need to edit the item's properties and choose a new icon from the icons you previously saved to the AppData folder:
+The Windows 10 skin ships with the following icons, which you should have already copied to the Classic Shell AppData folder:
+
+![available-icons](https://cloud.githubusercontent.com/assets/132681/10267781/2165bcb6-6a9b-11e5-9200-c84e1e431a34.png)
+
+Note that [more icons](https://github.com/davestewart/classic-shell-win10/issues/2) will be released with the 1.1 update. 
+
+If you add a new item to the Start Menu and want to customise its look, you'll need to edit its properties and set a new icon.
 
 To do this:
 
@@ -56,15 +62,6 @@ To do this:
 4. In the "File" field, click the "..." button to open the "Select Source File" dialog
 5. Choose the icon you want to use and click "Open"
 6. Confirm all dialogs to exit
-
-
-You have the following icons to choose from (with [more](https://github.com/davestewart/classic-shell-win10/issues/2) coming soon):
-
-- **User folders**: Desktop, Bookmark, Favorites, Documents, Pictures, Videos, Music, Downloads, Folder
-- **Hardware**: This PC, Network, Printers
-- **Tasks**: Run, Search, Security, Help, Power
-- **Settings**: Settings, Control Panel
-- **Lists**: User Files, Recent Items, All Apps, All Programs
 
 
 ## Troubleshooting
