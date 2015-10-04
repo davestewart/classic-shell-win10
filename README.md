@@ -4,14 +4,24 @@ A Windows 10 skin for Classic Shell's Start Menu replacement, with yummy Windows
 
 ![windows-10-start-menu](https://cloud.githubusercontent.com/assets/132681/10264496/00daba96-6a05-11e5-8dbd-44b4cd83e374.png)
 
+## Overview
 
-## Download and Installation
+If you're not familiar with Classic Shell, it's a free Start Menu replacement that retains the functionality and useability of previous Windows versions, specifically Pinned Items and a hierarchical All Programs menu. 
 
-If you're not already using Classic Shell, download and install it from:
+It can downloaded and installed from:
 
 - [http://www.classicshell.net](http://www.classicshell.net)
 
-Next, download the Windows 10 skin using the "Download ZIP" button on the right.
+The Windows 10 Skin customises Classic Shell to make it look as much like Windows 10 as possible, and comes with the following hand-crafted icons:
+
+![available-icons](https://cloud.githubusercontent.com/assets/132681/10267781/2165bcb6-6a9b-11e5-9200-c84e1e431a34.png)
+
+Note that [more icons](https://github.com/davestewart/classic-shell-win10/issues/2) will be released with the 1.1 update. 
+
+
+## Download and installation
+
+Download the package contents using the "Download ZIP" button on the right.
 
 Unzip and navigate to the "dist" folder, then...
 
@@ -46,13 +56,7 @@ You can edit most of the Classic Shell settings as you like, with the exception 
 
 ### Icons
 
-The Windows 10 skin ships with the following icons, which you should have already copied to the Classic Shell AppData folder:
-
-![available-icons](https://cloud.githubusercontent.com/assets/132681/10267781/2165bcb6-6a9b-11e5-9200-c84e1e431a34.png)
-
-Note that [more icons](https://github.com/davestewart/classic-shell-win10/issues/2) will be released with the 1.1 update. 
-
-If you add a new item to the Start Menu and want to customise its look, you'll need to edit its properties and set a new icon.
+To customise items you've added to the Start Menu yourself, you'll need to edit their properties and set a new icon.
 
 To do this:
 

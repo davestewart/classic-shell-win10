@@ -4,16 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Classic Shell Windows 10 Skin - Icons</title>
 	<style type="text/css">
+
+		/* global */
+
 		body{
 			height:100%;
 			margin:0;
 			padding:20px;
-			padding-left:40px;
+			padding-left:30px;
 			font-family: "Segoe UI", "Arial", sans-serif;
 			font-size: 12px;
 			background: #333;
 			color:#FFF;
 		}
+
+		/* block */
+
 		.block{
 			float:left;
 			padding:0 50px 10px 10px;
@@ -22,6 +28,12 @@
 		.block:first-child{
 			border:none;
 		}
+		header{
+			margin-left:8px;
+		}
+
+		/* formatting */
+
 		h1, h2, h3, h4{
 			color:white;
 			font-weight: normal;
@@ -35,9 +47,6 @@
 		h3{
 			color:#AAA;
 		}
-		header{
-			margin-left:8px;
-		}
 		ul, li{
 			margin:0;
 			padding:0;
@@ -49,8 +58,15 @@
 			vertical-align: middle;
 		}
 		img{
-			margin:5px;
+			margin:6px 5px;
 		}
+
+		@media(max-width:1200px){
+			.block{
+				padding-right:30px;
+			}
+		}
+
 	</style>
 </head>
 <body>
@@ -63,53 +79,53 @@
 		<div class="block">
 			<h3>User Folders</h3>
 			<ul>
-				<li><img src="bookmark.ico" /> <span>Bookmark</span></li>
-				<li><img src="desktop.ico" /> <span>Desktop</span></li>
+				<li><img src="user-files.ico" /> <span>User Files</span></li>
 				<li><img src="documents.ico" /> <span>Documents</span></li>
+				<li><img src="folder.ico" /> <span>Folder</span></li>
+				<li><img src="desktop.ico" /> <span>Desktop</span></li>
 				<li><img src="pictures.ico" /> <span>Pictures</span></li>
+				<li><img src="videos.ico" /> <span>Videos</span></li>
+				<li><img src="music.ico" /> <span>Music</span></li>
 				<li><img src="downloads.ico" /> <span>Downloads</span></li>
 				<li><img src="favorites.ico" /> <span>Favorites</span></li>
-				<li><img src="folder.ico" /> <span>Folder</span></li>
-				<li><img src="music.ico" /> <span>Music</span></li>
-				<li><img src="videos.ico" /> <span>Videos</span></li>
-			</ul>
-		</div>
-
-		<div class="block">
-			<h3>Hardware</h3>
-			<ul>
-				<li><img src="this-pc.ico" /> <span>This PC</span></li>
-				<li><img src="network.ico" /> <span>Network</span></li>
-				<li><img src="printers.ico" /> <span>Printers</span></li>
+				<li><img src="bookmark.ico" /> <span>Bookmark</span></li>
 			</ul>
 		</div>
 
 		<div class="block">
 			<h3>Tasks</h3>
 			<ul>
-				<li><img src="help.ico" /> <span>Help</span></li>
-				<li><img src="power.ico" /> <span>Power</span></li>
-				<li><img src="run.ico" /> <span>Run</span></li>
 				<li><img src="search.ico" /> <span>Search</span></li>
+				<li><img src="run.ico" /> <span>Run</span></li>
+				<li><img src="power.ico" /> <span>Power</span></li>
+				<li><img src="help.ico" /> <span>Help</span></li>
 				<li><img src="security.ico" /> <span>Security</span></li>
-			</ul>
-		</div>
-
-		<div class="block">
-			<h3>Settings</h3>
-			<ul>
-				<li><img src="control-panel.ico" /> <span>Control Panel</span></li>
-				<li><img src="settings.ico" /> <span>Settings</span></li>
 			</ul>
 		</div>
 
 		<div class="block">
 			<h3>Lists</h3>
 			<ul>
-				<li><img src="all-apps.ico" /> <span>All Apps</span></li>
 				<li><img src="all-programs.ico" /> <span>All Programs</span></li>
+				<li><img src="all-apps.ico" /> <span>All Apps</span></li>
 				<li><img src="recent-items.ico" /> <span>Recent Items</span></li>
-				<li><img src="user-files.ico" /> <span>User Files</span></li>
+			</ul>
+		</div>
+
+		<div class="block">
+			<h3>Hardware</h3>
+			<ul>
+				<li><img src="this-pc.ico" /> <span>Workstation</span></li>
+				<li><img src="network.ico" /> <span>Network</span></li>
+				<li><img src="printers.ico" /> <span>Printers</span></li>
+			</ul>
+		</div>
+
+		<div class="block">
+			<h3>Settings</h3>
+			<ul>
+				<li><img src="settings.ico" /> <span>Settings</span></li>
+				<li><img src="control-panel.ico" /> <span>Control Panel</span></li>
 			</ul>
 		</div>
 
@@ -118,7 +134,8 @@
 			<ul>
 				<li><img src="dot.ico" /> <span>Games</span></li>
 				<li><img src="dot.ico" /> <span>Recycle Bin</span></li>
-				<li><img src="dot.ico" /> <span>Monitor</span></li>
+				<li><img src="dot.ico" /> <span>Workstation</span></li>
+				<li><img src="dot.ico" /> <span>Desktop</span></li>
 				<li><img src="dot.ico" /> <span>Notebook</span></li>
 				<li><img src="dot.ico" /> <span>Default Programs</span></li>
 				<li><img src="dot.ico" /> <span>Menu Settings</span></li>
