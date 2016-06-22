@@ -30,7 +30,7 @@ Unzip and navigate to the "dist" folder, then...
 
 ## Setup
 
-To style the Start Menu and show the icons, you'll need to load the supplied settings file. **This will completely replace your existing settings**, so make sure to backup your existing configuration or take a screenshot before loading the new settings.
+To style the Start Menu and show the icons, you'll need to load the supplied settings file. **This will completely replace your existing Classic Shell settings**, so make sure to backup your existing configuration or take a screenshot before loading the new settings.
 
 1. At the bottom of the panel, click "Backup" then "Load from XML File..."
 2. Choose the "Windows 10 Settings.xml" file
