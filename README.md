@@ -70,6 +70,12 @@ To do this:
 
 ## Troubleshooting
 
+#### The menu background is blue (or some other color)
+
+Classic Start Menu takes its color from the current Windows desktop bacground color, so you'll need to change this to change the menu color.
+
+Right click the Desktop and go Personalize > Colors > Choose a color, then turn off "Automatically pick an accent color from my background" and select something sensible, such as a dark grey.
+
 #### The icons aren't showing
 
 Are you sure you copied the icons folder to your AppData/Classic Shell folder? The full path to an icon file should look like this:
